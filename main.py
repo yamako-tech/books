@@ -25,6 +25,6 @@ db.create_all()
 
 
 # CREATE RECORD
-new_book = Book(id=1, title='Jujutsu-Kaisen', author="Akutami Gege", rating=10.0)
+new_book = Book(id=3, title='Tokyo Revengers', author="Ken Wakui", rating=10.0)
 db.session.add(new_book)
 db.session.commit()
